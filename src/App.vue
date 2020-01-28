@@ -15,7 +15,10 @@
                 <article class="col-md-6 offset-md-3 text-center">
                     <h2>Who I Am</h2>
                     <p class="lead">
-                        Currently I work at the American Meteorogolical Society
+                        Currently I work at the
+                        <a href="https://www.ametsoc.org"
+                            >American Meteorological Society</a
+                        >
                         as the frontend web developer within the Department of
                         Digital Projects and Design.
                     </p>
@@ -25,7 +28,7 @@
                         non-profits in event-planning, publications, web content
                         editing, and more.
                     </p>
-                    <p class="text-center">
+                    <!-- <p class="text-center">
                         <a class="btn btn-primary" href="resume.pdf"
                             >My Resume (PDF)</a
                         >
@@ -37,7 +40,7 @@
                                 class="fas fa-external-link-alt"
                             ></i
                         ></a>
-                    </p>
+                    </p> -->
                 </article>
             </section>
             <section class="pb-5 light-yellow px-5">
@@ -48,33 +51,33 @@
                     <CaseCard
                         image-source="images/pdts.png"
                         image-title="PDTS"
-                        case-text="Leverages Vue's ability to insert seamlessly into third-party systems but still be developed rapidly to meet the tight timeline. Also featuring Bootstrap and a sprinkle of ColdFusion and Mura.js to better integrate with our (ColdFusion-based) CMS, Mura."
+                        case-text="I leveraged Vue's ability to insert seamlessly into third-party systems but still be developed rapidly to meet a tight timeline. Also featuring Bootstrap and a sprinkle of ColdFusion and Mura.js to better integrate with our (ColdFusion- and Bootstrap-based) CMS, Mura."
                     />
                     <CaseCard
                         image-source="images/webinar-library.png"
                         image-title="Webinar Library"
-                        case-text="Like PDTS, I chose Vue.js to integrate easily with our ColdFusion-based CMS. Data is pulled through the CMS's ColdFusion iterator and Mura.js, and then displayed using an on-page Vue app."
+                        case-text="Like PDTS, I chose Vue.js to integrate easily with our ColdFusion-based CMS. I pulled the user-entered content using a ColdFusion iterator with some help from Mura.js, and then displayed using my small but powerful inline Vue app."
                         button-text="View the Library"
                         button-link="https://www.ametsoc.org/index.cfm/ams/webinar-directory/"
                     />
                     <CaseCard
                         image-source="images/my-account.png"
                         image-title="My Account"
-                        case-text="A wild ride, and my first ever project at AMS. If I could do it all again, I'd refactor to use Single File Components and Vue CLI for sanity, but it's still something I'm thankful for: it taught me about the importance of unit testing and staying DRY the hard way."
+                        case-text="A wild ride, and my first-ever project at AMS. If I could do it all again, I'd refactor to use Single File Components and Vue CLI for sanity, but it's still something I'm thankful for: it taught me the importance of unit testing and staying DRY the hard way."
                     />
                     <CaseCard
                         image-source="images/newdial.png"
                         image-title="The New Dial"
-                        case-text="A quick projct to help out a class project while I was finishing up my MFA (Creative Writing). An update to an older-looking WordPress site."
+                        case-text="A quick volunteer project to help out my class while I was finishing up my MFA (Creative Writing). An update to an older-looking WordPress site to hold our class portfolio."
                         button-text="Read the New Dial"
                         button-link="https://newdialmag.wordpress.com/"
                     />
                     <CaseCard
                         image-source="images/megan-valcour.png"
                         image-title="This Site"
-                        case-text="Built (a bit quickly!) with Vue.js for fast scaffolding, Bootstrap for some quick responsivity, and some Sass sprinkled in to stay DRY."
+                        case-text="Built (a bit quickly!) with Vue.js for fast scaffolding, Bootstrap for some quick responsivity and utility classes, and some Sass sprinkled in to stay DRY."
                         button-text="See on GitHub"
-                        button-link="https://www.github.com/"
+                        button-link="https://github.com/megvalcour/megan-valcour"
                     />
                 </div>
             </section>

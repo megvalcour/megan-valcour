@@ -8,7 +8,7 @@
             >
                 <div
                     class="front"
-                    :style="'--bg-img: url(\'' + imageSource + '\')'"
+                    :style="'--bg-img: url(\'../' + imageSource + '\')'"
                 >
                     <h3>{{ imageTitle }}</h3>
                 </div>
