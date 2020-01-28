@@ -19,13 +19,13 @@
                         <a href="https://www.ametsoc.org"
                             >American Meteorological Society</a
                         >
-                        as the frontend web developer within the Department of
+                        as the front-end web developer within the Department of
                         Digital Projects and Design.
                     </p>
                     <p class="lead">
                         Prior to that, I worked in the same organization's
                         publications department, and then at various other
-                        non-profits in event-planning, publications, web content
+                        nonprofits in event-planning, publications, web content
                         editing, and more.
                     </p>
                     <!-- <p class="text-center">
@@ -48,6 +48,13 @@
                 <div
                     class="d-flex flex-wrap justify-content-center align-items-around"
                 >
+                    <CaseCard
+                        image-source="images/ams.png"
+                        image-title="AMS"
+                        case-text="A labor of love! To match our new logo and brand, I redesigned the main website of the AMS -- featuring a more modern look and feel as well as a more standardized development and deployment pipeline. Brought to you by Sass, Vue, Bootstrap 4, a sprinkle of ColdFusion, and a great team of testers and content creators."
+                        button-text="Go to ametsoc.org"
+                        button-link="https://www.ametsoc.org/index.cfm/ams/"
+                    />
                     <CaseCard
                         image-source="images/pdts.png"
                         image-title="PDTS"
