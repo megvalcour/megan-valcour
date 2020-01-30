@@ -56,6 +56,13 @@
                         button-link="https://www.ametsoc.org/index.cfm/ams/"
                     />
                     <CaseCard
+                        image-source="images/bee-spelled.png"
+                        image-title="Bee-Spelled"
+                        case-text="Built with React! My first attempt at the framework is a little word game that randomly generates various sizes of boards and checks your guesses against the fantastic (and open source!) DataMuse API."
+                        button-text="View on GitHub"
+                        button-link="https://github.com/megvalcour/bee-spelled"
+                    />
+                    <CaseCard
                         image-source="images/pdts.png"
                         image-title="PDTS"
                         case-text="I leveraged Vue's ability to insert seamlessly into third-party systems but still be developed rapidly to meet a tight timeline. Also featuring Bootstrap and a sprinkle of ColdFusion and Mura.js to better integrate with our (ColdFusion- and Bootstrap-based) CMS, Mura."
