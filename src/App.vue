@@ -4,9 +4,7 @@
             <NavBar />
             <section class="p-5">
                 <h1 class="text-center">Hi!<br />I'm Megan.</h1>
-                <CodeTyping
-                    message="A front-end developer out of New Haven, CT"
-                />
+                <CodeTyping message="A front-end developer out of Boston, MA" />
             </section>
             <AccentBlock />
         </header>
