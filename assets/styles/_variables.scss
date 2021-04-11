@@ -1,0 +1,56 @@
+// Variables
+
+// Color Palette
+$color-blue: #6699cc;
+$color-blue-dark: darken($color-blue, 20%);
+$color-blue-light: lighten($color-blue, 20%);
+
+$color-yellow: #fff275;
+$color-yellow-dark: darken($color-yellow, 20%);
+$color-yellow-light: lighten($color-yellow, 20%);
+
+$color-orange: #ff8c42;
+$color-orange-dark: darken($color-orange, 10%);
+$color-orange-light: lighten($color-orange, 20%);
+
+$color-red: #ff3c38;
+$color-red-dark: darken($color-red, 20%);
+$color-red-light: lighten($color-red, 20%);
+
+$color-maroon: #a23e48;
+$color-maroon-dark: darken($color-maroon, 20%);
+$color-maroon-light: lighten($color-maroon, 20%);
+
+$color-white: #ffffff;
+$color-black: #202020;
+$color-gray: #c4c4c4;
+$color-neutral: #ececec;
+
+// Fonts and Shadows
+$font-body-standard: "Nunito", sans-serif;
+$font-heading: "Bangers", sans-serif;
+
+$box-shadow-rest: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$box-shadow-hover: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+
+// Mixins for Commons Styles
+@mixin materialShadow {
+    background: $color-white;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+@mixin fontFunHeading {
+    font-family: "Bangers", cursive;
+    letter-spacing: 1px;
+}
+
+// Fonts
+
+@font-face {
+    font-family: "Bangers";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("~assets/fonts/Bangers-Regular.ttf") format("truetype");
+}
