@@ -15,18 +15,15 @@
                 <article class="col-md-6 offset-md-3 text-center">
                     <h2>Who I Am</h2>
                     <p class="lead">
-                        Currently I work at the
-                        <a href="https://www.ametsoc.org"
-                            >American Meteorological Society</a
-                        >
-                        as the front-end web developer within the Department of
-                        Digital Projects and Design.
+                        Currently, I work as a front-end engineer at a digital
+                        agency just north of Boston, MA.
                     </p>
                     <p class="lead">
-                        Prior to that, I worked in the same organization's
-                        publications department, and then at various other
-                        nonprofits in event-planning, publications, web content
-                        editing, and more.
+                        Prior to that, I worked as an in-house front-end
+                        developer for a nonprofit, in the same organization's
+                        publications department, and at various other nonprofits
+                        in event-planning, publications, web content editing,
+                        and more.
                     </p>
                     <!-- <p class="text-center">
                         <a class="btn btn-primary" href="resume.pdf"
